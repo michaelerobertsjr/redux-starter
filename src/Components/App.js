@@ -1,22 +1,13 @@
 import React from "react";
 import { connect } from "react-redux";
 import UserList from "./UserList";
-
 import { fetchUsers } from "../Actions/userActions";
-
-//@connect((store) => {
-//	return {
-//		users: store.users.users,
-//	}
-//})
 
 const App = React.createClass({
 	componentWillMount(){
 		this.props.dispatch(fetchUsers());
 	},
-
 	render(){
-		console.log(`USERS ::: ${this.props.users}`);
 		return (
 			<div>
 			App Component

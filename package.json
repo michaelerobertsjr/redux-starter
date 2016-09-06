@@ -1,7 +1,7 @@
 {
-  "name": "app-starter",
-  "version": "1.0.0",
-  "description": "Webpack boilerplate app",
+  "name": "redux-starter",
+  "version": "0.1.0",
+  "description": "Webpack boilerplate redux with promises",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -27,6 +27,6 @@
     "webpack": "^1.12.9",
     "webpack-dev-server": "^1.14.1"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "michaelerobertsjr",
+  "license": "MIT"
 }
